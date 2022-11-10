@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+    color: white;
+}
+h2{
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    border-radius: 25px;
+    background-color: white;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 90px;
+    color: darkred;
+}
+
+h1:hover{
+    text-align: center;
+    border-radius: 25px;
+    background-color: darkred;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 90px;
+    color: white;
+}
+
+button{
+    justify-items: center;
+    width: 50%;
+    height: 50%;
+}
+
+.container { 
+    height: 200px;
+    position: relative;
+    border: 13px dotted red; 
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  button{
+    width: 190px; 
+    height: 120px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    color: darkred;
+    font-size: large;
+  }
+
+  button:hover{
+    width: 190px; 
+    height: 120px;
+    border-radius: 25px;
+    background-color: red;
+    color: white;
+    font-size: large;
+  }
