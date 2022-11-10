@@ -1,5 +1,5 @@
 //List of words that can be edited by the programmer
-let words=["bear","tennis","fruit","tiger","banana","peach"];
+let words=["hang","man","run","away","fast","today"];
 //chosenword is a randomly picked word from the array above
 let chosenword=words[Math.floor(Math.random()*words.length)]
 //chosenword_arr is the corresponding array to loop through
@@ -78,8 +78,8 @@ if (chosenword==word2){
   document.querySelector('#start_btn').disabled = true;
   document.getElementById("start_btn").innerHTML = 'CLICK RESTART';
   document.getElementById("won").innerHTML = "<h1 style='color: white; background-color: green;'>HANGMAN WON</h1>"
-   
   
+
   //alert("Great job! You guessed the word!");
 }
 }
