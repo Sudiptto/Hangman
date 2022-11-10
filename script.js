@@ -67,13 +67,14 @@ while (chosenword!=word2){
   else{
     //User chose to end the game:
     alert("Great job on the tries! The word was: \n" + chosenword + "\nYour guess was: \n" + word2 + "Number of Tries: " + number_tries )
+    document.getElementById("won").innerHTML = "<h1 style='color: white; background-color: darkred;'>HANGMAN LOST :)</h1>";
 
     break;
   }
 } // end of while loop
 
 if (chosenword==word2){
-  document.getElementById("startt").innerHTML= "Congrats you got that word!  <u> <a href='index.html'>REFRESH TO START AGAIN!</a> </u>";
+  document.getElementById("startt").innerHTML= "Congrats you got that word (" + chosenword + ") !  <u> <a href='index.html'>REFRESH TO START AGAIN!</a> </u>";
   document.getElementById("stats").innerHTML = "Number of Tries: " + (number_tries);
   document.querySelector('#start_btn').disabled = true;
   document.getElementById("start_btn").innerHTML = 'CLICK RESTART';
